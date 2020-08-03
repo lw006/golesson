@@ -1,8 +1,10 @@
 package main //必须
 
 import (
-	"calc"
 	"fmt"
+
+	"./calc"
+	"./calc/test"
 )
 
 func init() {
@@ -14,4 +16,5 @@ func main() {
 	fmt.Println("a = ", a)
 
 	fmt.Println("r = ", calc.Minus(10, 5))
+	test.Test1()
 }
