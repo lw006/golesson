@@ -13,4 +13,8 @@ func main() {
 
 	//内建函数，len()可以测字符串的长度，有多少个字符
 	fmt.Println("len(str2) = ", len(str2))
+
+	str3 := "中国nihao"
+	fmt.Println("len(str3) = ", len(str3))
+	fmt.Println("rune(str3) = ", rune(str3))
 }

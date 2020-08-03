@@ -10,11 +10,11 @@ func main() {
 	fmt.Printf("flag = %t\n", flag)
 
 	//bool类型不能转换为int
-	//fmt.Printf("flag = %d\n", int(flag))
+	//fmt.Printf("flag = %d\n", int(flag)) // cannot convert flag (type bool) to type int
 
 	//0就是假，非0就是真
 	//整型也不能转换为bool
-	//flag = bool(1)
+	//flag = bool(1) // cannot convert 1 (type untyped int) to type bool
 
 	var ch byte
 	ch = 'a' //字符类型本质上就是整型

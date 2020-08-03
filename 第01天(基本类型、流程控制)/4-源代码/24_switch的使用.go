@@ -26,6 +26,7 @@ func main() {
 		fallthrough
 	default:
 		fmt.Println("按下的是xxx楼")
+		//fallthrough //不跳出switch语句，后面的无条件执行 //cannot fallthrough final case in switch
 	}
 
 }

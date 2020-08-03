@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var ch byte //声明字符类型
 	ch = 97
-	//fmt.Println("ch = ", ch)
+	fmt.Println("ch = ", ch)
 	//格式化输出，%c以字符方式打印，%d以整型方式打印
 	fmt.Printf("%c, %d\n", ch, ch)
 

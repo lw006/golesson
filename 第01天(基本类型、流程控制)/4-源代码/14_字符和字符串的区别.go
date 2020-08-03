@@ -22,5 +22,7 @@ func main() {
 	str = "hello go"
 	//只想操作字符串的某个字符，从0开始操作
 	fmt.Printf("str[0] = %c, str[1] = %c\n", str[0], str[1])
+	str[0] = 's'
+	fmt.Println(str)
 
 }

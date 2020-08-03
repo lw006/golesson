@@ -10,11 +10,11 @@ func main() {
 	fmt.Printf("a type is %T\n", a)
 
 	type (
-		long int64
+		long bigint
 		char byte
 	)
 
 	var b long = 11
 	var ch char = 'a'
-	fmt.Printf("b = %d, ch = %c\n", b, ch)
+	fmt.Printf("b = %d 类型:%T, ch = %c 类型:%T\n", b, b, ch, ch)
 }

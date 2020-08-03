@@ -14,4 +14,5 @@ func main() {
 	if a := 10; a == 10 { //条件为真，指向{}语句
 		fmt.Println("a == 10")
 	}
+	//fmt.Println(a) //undefined: a
 }

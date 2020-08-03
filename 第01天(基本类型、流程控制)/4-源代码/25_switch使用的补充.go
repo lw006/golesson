@@ -11,7 +11,7 @@ func main() {
 	case 2:
 		fmt.Println("按下的是2楼")
 
-	case 3, 4, 5:
+	case 3, 4, 5: // 可枚举形式列出多个条件
 		fmt.Println("按下的是yyy楼")
 
 	case 6:
@@ -23,7 +23,7 @@ func main() {
 
 	score := 85
 	switch { //可以没有条件
-	case score > 90: //case后面可以放条件
+	case score > 90, score > 75: //case后面可以放条件
 		fmt.Println("优秀")
 	case score > 80: //case后面可以放条件
 		fmt.Println("良好")
